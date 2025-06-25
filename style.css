@@ -1,0 +1,123 @@
+/* boiler plate */
+
+
+/* *{
+    border: 1px solid black;
+} */
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: #F4EBD3; */
+}
+
+body{
+    /* background-color: #F4EBD3; */
+    background-image: url("https://images.unsplash.com/photo-1750182288833-744e3ed01034?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+/* #d0{
+    display: inline-flex;
+    width: 580px;
+    height: 400px;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    align-items: center;
+    justify-content:space-between;
+
+} */
+#d0 {
+    display: inline-flex
+;
+    width: 580px;
+    height: 400px;
+    position: relative;
+    /* top: -25px; */
+    left: 0px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+
+div div{
+    background-color: #ECFAE5;
+    border: 3px solid #2f5229;
+    opacity: 0.8;
+    
+
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari support */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+#d1,#d2{
+    /* border: 10px dotted black; */
+border-radius: 10%;
+}
+
+#d1 {
+    /* position: absolute; */
+    /* top: 20px; */
+    
+    width: 260px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#d2{
+    /* position: absolute; */
+    /* top: 0px; */
+    /* left: 300px; */
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+div>h1{
+    /* margin-left: 20px; */
+    text-align: center;
+    /* color: #B0DB9C; */
+    color: #2f5229;
+}
+
+button{
+    background-color: #B0DB9C !important;
+    border-radius: 50%;
+    padding: 10px;
+    border: 5px solid #CAE8BD;
+    color: #255011 !important;
+
+}
+
+
+
+#d3 {
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 50px;
+    width: 50%;
+    /* align-content: stretch; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
